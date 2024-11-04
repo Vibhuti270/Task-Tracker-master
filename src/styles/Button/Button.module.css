@@ -1,0 +1,27 @@
+@import url("https://fonts.googleapis.com/css2?family=Martel:wght@200;300;400;600;700;800;900&display=swap");
+.btn {
+  width: 170px;
+  height: 50px;
+  background-color: rgba(247, 246, 242, 0.4470588235);
+  margin: 10px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.btn span {
+  font-family: "Martel", serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.btn:hover {
+  background-color: #f7f6f2;
+}
+
+@media screen and (max-width: 600px) {
+  .btn {
+    width: 150px;
+  }
+}/*# sourceMappingURL=Button.module.css.map */

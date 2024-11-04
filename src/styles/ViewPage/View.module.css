@@ -1,0 +1,36 @@
+@import url("https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Mate+SC&display=swap");
+.view {
+  margin-top: 10px;
+  width: 99%;
+  height: 99%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow: hidden;
+}
+.view .content {
+  width: 70%;
+  height: auto;
+  padding: 10px 10px;
+  margin-left: 20px;
+  margin-bottom: 10px;
+}
+.view .content .heading {
+  font-family: "Mate SC", serif;
+  font-style: normal;
+  font-size: 25px;
+}
+.view .content .value {
+  font-family: "Crimson Text", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 20px;
+  margin-left: 30px;
+}
+
+@media screen and (max-width: 600px) {
+  .view {
+    overflow-y: hidden;
+    margin-top: 40px;
+  }
+}/*# sourceMappingURL=View.module.css.map */

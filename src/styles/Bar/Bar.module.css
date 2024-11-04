@@ -1,0 +1,33 @@
+.btns {
+  width: 100%;
+  height: 5%;
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+  background-color: #A7E8BD;
+  position: relative;
+}
+.btns .close {
+  position: absolute;
+  left: 10px;
+  top: 10px;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background-color: #fc5c58;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.btns .close img {
+  width: 70%;
+  height: 70%;
+  visibility: hidden;
+}
+.btns .close:hover img {
+  visibility: visible;
+}
+.btns span {
+  position: absolute;
+  right: 20px;
+  top: 4px;
+}/*# sourceMappingURL=Bar.module.css.map */

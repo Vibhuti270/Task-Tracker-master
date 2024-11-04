@@ -1,0 +1,31 @@
+@import url("https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap");
+.delete {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "Libre Baskerville", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.delete .button {
+  margin-top: 30px;
+  width: 20%;
+  display: flex;
+  justify-content: space-between;
+}
+.delete .button .btn {
+  width: 100px;
+  height: 30px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.delete .button .yes {
+  background-color: #9CC69B;
+}
+.delete .button .no {
+  background-color: #D33E43;
+}/*# sourceMappingURL=Delete.module.css.map */

@@ -1,0 +1,103 @@
+@import url("https://fonts.googleapis.com/css2?family=Forum&family=Mate+SC&display=swap");
+.Form {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  font-family: "Forum", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.Form .left {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.Form .left :nth-child(n) {
+  background-color: #f5f3f4;
+  border: none;
+  width: 75%;
+  padding-left: 20px;
+  border-radius: 5px;
+  border-bottom-right-radius: 0;
+  font-size: 20px;
+  border: 1px solid black;
+}
+.Form .left input[type=text] {
+  margin: 20px;
+  height: 50px;
+  font-family: "Mate SC", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.Form .left textarea {
+  padding-top: 20px;
+  font-family: "Forum", serif;
+  font-weight: 400;
+  font-style: normal;
+  word-spacing: 5px;
+}
+.Form .right {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+.Form .right input[type=text] {
+  width: 71%;
+  height: 40px;
+  margin-left: 30px;
+  margin-bottom: 10px;
+  padding-left: 20px;
+  border: 1px solid black;
+  background-color: #f5f3f4;
+  font-family: "Forum", serif;
+  font-weight: 400;
+  font-size: 16px;
+}
+.Form .right label {
+  margin-left: 30px;
+  font-size: 20px;
+  font-family: "Mate SC", serif;
+  margin-bottom: 10px;
+}
+.Form .right .dropdown {
+  width: 75%;
+  height: 50px;
+  margin-left: 30px;
+  margin-bottom: 15px;
+  font-family: "Forum", serif;
+  font-size: 20px;
+  background-color: #f5f3f4;
+  border: 1px solid black;
+  padding-right: 10px;
+}
+.Form .right .button {
+  width: 75%;
+  height: 50px;
+  margin-left: 30px;
+  background-color: #A7E8BD;
+  border: none;
+  box-shadow: 4px 4px #343a40;
+  transition: 0.2s ease-in-out;
+  font-family: "Forum", serif;
+  font-size: 20px;
+  cursor: pointer;
+}
+.Form .right .button:hover {
+  transform: translateY(-4px);
+  box-shadow: none;
+}
+
+@media screen and (max-width: 600px) {
+  .Form .left input[type=text] {
+    font-size: 12px;
+  }
+  .Form .right input[type=text] {
+    width: 60%;
+  }
+}/*# sourceMappingURL=Form.module.css.map */

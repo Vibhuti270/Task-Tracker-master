@@ -1,0 +1,55 @@
+@import url("https://fonts.googleapis.com/css2?family=Marcellus&display=swap");
+.main {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.main .header {
+  width: 100%;
+  height: 20%;
+  display: flex;
+  justify-content: space-between;
+}
+.main .header .heading {
+  width: 30%;
+  height: 100%;
+  font-family: "Marcellus", serif;
+  font-weight: 400;
+  font-style: normal;
+  text-align: left;
+}
+.main .header .heading span {
+  font-size: 50px;
+  color: black;
+  border-bottom: 2px solid black;
+}
+.main .header .adTask {
+  width: 40%;
+  height: 100%;
+}
+.main .tasks {
+  height: 80%;
+  width: 100%;
+  display: flex;
+}
+
+@media screen and (max-width: 600px) {
+  .main {
+    height: 100%;
+    overflow-y: scroll;
+  }
+  .main .header {
+    flex-direction: column;
+  }
+  .main .header .heading span {
+    font-size: 20px;
+  }
+  .main .header .addTask {
+    width: 30%;
+  }
+  .main .tasks {
+    height: auto;
+    flex-direction: column;
+  }
+}/*# sourceMappingURL=Main.module.css.map */

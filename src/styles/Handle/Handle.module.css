@@ -1,0 +1,24 @@
+.main {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  height: 90%;
+  width: 92%;
+  background-color: #f7f6f2;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  transform: scale(0);
+  transition: all 0.2s ease-in-out;
+}
+.main .content {
+  width: 100%;
+  height: 100%;
+}
+
+@media screen and (max-width: 600px) {
+  .main {
+    left: -120px;
+    width: 150%;
+  }
+}/*# sourceMappingURL=Handle.module.css.map */
